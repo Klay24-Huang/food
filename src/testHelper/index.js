@@ -1,3 +1,3 @@
-export default printTestError = (obj) => {
+export const printTestError = (obj) => {
     console.error(JSON.stringify(obj))
 }
